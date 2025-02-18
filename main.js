@@ -153,3 +153,13 @@ galleryItems.forEach(item => {
   
   galleryContainer.appendChild(galleryItem);
 });
+
+// JavaScript to scroll to the start (top) page
+const button = document.querySelector('.button'); // Select your button
+
+button.addEventListener('click', () => {
+  window.scrollTo({
+    top: 0, // Scroll to the top of the page
+    behavior: 'smooth' // Smooth scrolling effect
+  });
+});
