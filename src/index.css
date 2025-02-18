@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-[#0A0A0B] text-white;
+  }
+}
+
+.gradient-text {
+  @apply bg-clip-text text-transparent bg-gradient-to-r from-purple-400 to-pink-600;
+}
+
+.gradient-border {
+  background: linear-gradient(#0A0A0B, #0A0A0B) padding-box,
+              linear-gradient(to right, #A855F7, #EC4899) border-box;
+  border: 1px solid transparent;
+}
+
+.hero-gradient {
+  background: radial-gradient(circle at center, rgba(168, 85, 247, 0.15) 0%, transparent 70%);
+}
