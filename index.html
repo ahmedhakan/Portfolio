@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+<body>
+  <div class="min-h-screen">
+    <!-- Navigation -->
+    <nav class="border-b">
+      <div class="max-w-7xl mx-auto">
+        <div class="nav-content">
+          <div class="logo">
+            <i data-lucide="brain" class="purple-icon"></i>
+            <span class="brand">Portfolio</span>
+          </div>
+          <div class="nav-links">
+            <a href="#about">About me</a>
+            <a href="https://www.linkedin.com/in/ahmed-hakan-demirtaş-444128236/" target="_blank" rel="noopener noreferrer">
+              <button class="gradient-border">LinkedIn</button>
+            </a>
+            <a href="https://github.com/ahmedhakan" target="_blank" rel="noopener noreferrer">
+              <button class="gradient-border">Github</button>
+            </a>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <div class="hero-gradient">
+      <div class="max-w-7xl mx-auto hero-content">
+        <div class="text-center">
+          <h1>
+            <span class="gradient-text">I'm</span>
+            Ahmed Hakan Demirtas
+          </h1>
+          <p class="hero-description">
+            Aspiring Data Analyst | Web Developer | AI Enthusiast
+          </p>
+          <div class="button-group">
+            <a href="#about">
+              <button class="gradient-button">
+                <span>Goals</span>
+                <i data-lucide="sparkles"></i>
+              </button>
+            </a>
+            <a href="#features">
+              <button class="gradient-border">
+                <span>My Projects</span>
+                <i data-lucide="chevron-right"></i>
+              </button>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- About Me Section -->
+    <div class="about-section" id="about">
+      <div class="max-w-7xl mx-auto">
+        <div class="text-center section-header">
+          <h2>
+            <span class="gradient-text">About Me</span>
+          </h2>
+        </div>
+        <div class="about-content">
+          <div class="about-text">
+            <p>I am a highly motivated Computer Science graduate with a strong foundation in web development and data analytics. My experience includes building web applications, working with databases, and developing AI-driven projects. Currently, I am expanding my expertise in data analysis to transition into a career in this field.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Skills Section -->
+    <div class="skills-section">
+      <div class="max-w-7xl mx-auto">
+        <div class="text-center section-header">
+          <h2>
+            <span class="gradient-text">Skills & Technologies</span>
+          </h2>
+        </div>
+        <div class="skills-grid" id="skills-container">
+          <!-- Skills will be populated by JavaScript -->
+        </div>
+      </div>
+    </div>
+
+    <!-- Education Section -->
+    <div class="education-section">
+      <div class="max-w-7xl mx-auto">
+        <div class="text-center section-header">
+          <h2>
+            <span class="gradient-text">Education</span>
+          </h2>
+        </div>
+        <div class="education-content">
+          <div class="education-card">
+            <i data-lucide="graduation-cap" class="purple-icon"></i>
+            <h3>Bachelor's Degree in Computer Science & Informatics</h3>
+            <p>Studied at a German university with a focus on AI, software development, and data analysis.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Features Section -->
+    <div class="features-section" id="features">
+      <div class="max-w-7xl mx-auto">
+        <div class="text-center features-header">
+          <h2>
+            <span class="gradient-text">Projects</span>
+          </h2>
+          <p>These are all my projects i developed</p>
+        </div>
+
+        <div class="features-grid" id="features-container">
+          <!-- Features will be populated by JavaScript -->
+        </div>
+      </div>
+    </div>
+
+    <!-- Project Gallery Section -->
+    <div class="gallery-section">
+      <div class="max-w-7xl mx-auto">
+        <div class="text-center gallery-header">
+          <h2>
+            <span class="gradient-text">Project Gallery</span>
+          </h2>
+          <p>Visual showcase of my recent work and achievements</p>
+        </div>
+        <div class="gallery-grid" id="gallery-container">
+          <!-- Gallery items will be populated by JavaScript -->
+        </div>
+      </div>
+    </div>
+
+    <!-- Contact Section -->
+    <div class="contact-section">
+      <div class="max-w-7xl mx-auto">
+        <div class="contact-content">
+          <div class="social-links">
+            <a href="https://www.linkedin.com/in/ahmed-hakan-demirtaş-444128236/" target="_blank" rel="noopener noreferrer" class="social-link">
+              <i data-lucide="linkedin" class="purple-icon"></i>
+            </a>
+            <a href="https://github.com/ahmedhakan" target="_blank" rel="noopener noreferrer" class="social-link">
+              <i data-lucide="github" class="purple-icon"></i>
+            </a>
+            <a href="mailto:ahmedhakandemirtas@gmail.com" class="social-link">
+              <i data-lucide="mail" class="purple-icon"></i>
+            </a>
+          </div>
+          <div class="footer-credit">
+            Made by Ahmed Hakan Demirtas
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="main.js"></script>
+</body>
+</html>
