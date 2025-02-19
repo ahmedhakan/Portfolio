@@ -61,37 +61,37 @@ const features = [
 // Galerie-Daten
 const galleryItems = [
   {
-    image: '404932437-39ddf96c-b0bf-4f87-903e-d46344d3326b.png',
+    image: 'Images/404932437-39ddf96c-b0bf-4f87-903e-d46344d3326b.png',
     title: 'Benutzer Daten APP',
     description: 'Verwaltung von Benutzerdaten',
     tags: ['SQL', 'C#', '.NET', 'Visual Studio', 'ERP']
   },
   {
-    image: 'Screenshot 2024-11-25 155042.png',
+    image: 'Images/Screenshot 2024-11-25 155042.png',
     title: 'Benutzer Daten APP',
     description: '',
     tags: ['Benutzer hinzufügen']
   },
   {
-    image: 'Screenshot 2024-11-25 153924.png',
+    image: 'Images/Screenshot 2024-11-25 153924.png',
     title: 'Benutzer Daten APP',
     description: '',
     tags: ['Daten in SQL Speichern']
   },
   {
-    image: '361817922-f62570a8-835d-4de2-95ef-79d42043fe17.png',
+    image: 'Images/361817922-f62570a8-835d-4de2-95ef-79d42043fe17.png',
     title: 'Artz-Brief-Ersteller-Website',
     description: 'Word templates mit der gewünschten eingabe namen oder datum anfordern',
     tags: ['HTML', 'CSS', 'JavaScript', 'Microsoft', 'React']
   },
   {
-    image: '361823334-cbeeff37-10fb-4092-bb8d-df54335a601d.png',
+    image: 'Images/361823334-cbeeff37-10fb-4092-bb8d-df54335a601d.png',
     title: 'Unity-NavMesh-Game',
     description: 'Unity-Spiel mit NavMesh-Agenten und KI-Gegnern',
     tags: ['Unity', 'C#','KI Enemy', 'Algorithms']
   },
   {
-    image: 'SAP.webp',
+    image: 'Images/SAP.webp',
     title: 'SAP ERP-Projekt',
     status: 'Wird entwickelt',
     description: 'Projekt zur Implementierung und Optimierung von Geschäftsprozessen mit SAP ERP.',
