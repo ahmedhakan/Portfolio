@@ -1,4 +1,4 @@
-// Add scroll behavior for navigation
+// Scroll-Verhalten für die Navigation hinzufügen
 window.addEventListener('scroll', () => {
   const nav = document.querySelector('nav');
   if (window.scrollY > 50) {
@@ -8,97 +8,98 @@ window.addEventListener('scroll', () => {
   }
 });
 
-// Initialize Lucide icons
+// Lucide-Icons initialisieren
 lucide.createIcons();
 
-// Skills data
+// Daten für Fähigkeiten
 const skills = [
   {
-    category: 'Programming',
+    category: 'Programmierung',
     items: ['Python', 'JavaScript', 'SQL', 'C#']
   },
   {
-    category: 'Web Development',
+    category: 'Web-Entwicklung',
     items: ['React.js', 'Angular', 'Node.js', 'Express.js']
   },
   {
-    category: 'Data Analytics',
+    category: 'Datenanalyse',
     items: ['Pandas', 'NumPy', 'Power BI', 'SQL']
   },
   {
-    category: 'Machine Learning & AI',
-    items: ['Scikit-learn', 'TensorFlow', 'AI model development']
+    category: 'Maschinelles Lernen & KI',
+    items: ['Scikit-learn', 'TensorFlow', 'KI-Modellentwicklung']
   },
   {
-    category: 'Database Management',
+    category: 'Datenbankverwaltung',
     items: ['MySQL', 'SQL Server']
   },
   {
-    category: 'Tools',
+    category: 'Werkzeuge',
     items: ['Git', 'Figma', 'Tableau', 'Excel']
   }
 ];
 
-// Feature data
+// Daten für Funktionen
 const features = [
   {
     icon: 'wand2',
     title: 'Benutzer Daten APP',
-    description: 'Developed a 3D game with AI-controlled enemies that navigate and attack players using Unitys NavMesh system. Implemented an intelligent spawning system for dynamic gameplay.'
+    description: 'Entwickelte ein 3D-Spiel mit KI-gesteuerten Feinden, die sich mithilfe des NavMesh-Systems von Unity bewegen und die Spieler angreifen. Implementiertes intelligentes Spawn-System für dynamisches Gameplay.'
   },
   {
     icon: 'sparkles',
-    title: 'Patient Letter Generation Web App',
-    description: 'Created a web application that generates personalized patient letters using dynamic templates. Implemented Node.js, Express.js, and easy-template-x for automation.'
+    title: 'Patientenbrief-Generierungs-Web-App',
+    description: 'Erstellte eine Webanwendung, die personalisierte Patientenbriefe mithilfe dynamischer Vorlagen generiert. Implementierte Node.js, Express.js und easy-template-x für die Automatisierung.'
   },
   {
     icon: 'github',
-    title: 'AI-Driven Game Development in Unity',
-    description: 'Designed a database-driven application using Visual Studio and SQL Server for managing user information. This project is relevant to ERP applications.'
+    title: 'KI-gesteuerte Spieleentwicklung in Unity',
+    description: 'Entwarf eine datenbankgesteuerte Anwendung mit Visual Studio und SQL Server zur Verwaltung von Benutzerdaten. Dieses Projekt ist relevant für ERP-Anwendungen.'
   }
 ];
 
-// Gallery data
+// Galerie-Daten
 const galleryItems = [
   {
-    image: 'https://images.unsplash.com/photo-1607799279861-4dd421887fb3?auto=format&fit=crop&q=80&w=1920',
-    title: 'Unity Game Development',
-    description: '3D game with AI-controlled enemies and dynamic gameplay',
-    tags: ['Unity', 'C#', 'AI']
+    image: '404932437-39ddf96c-b0bf-4f87-903e-d46344d3326b.png',
+    title: 'Benutzer Daten APP',
+    description: 'Verwaltung von Benutzerdaten',
+    tags: ['SQL', 'C#', '.NET', 'Visual Studio', 'ERP']
   },
   {
-    image: 'https://images.unsplash.com/photo-1517694712202-14dd9538aa97?auto=format&fit=crop&q=80&w=1920',
-    title: 'Patient Letter Generator',
-    description: 'Automated system for generating personalized medical documents',
-    tags: ['Node.js', 'Express', 'Automation']
+    image: 'Screenshot 2024-11-25 155042.png',
+    title: 'Benutzer Daten APP',
+    description: '',
+    tags: ['Benutzer hinzufügen']
   },
   {
-    image: 'https://images.unsplash.com/photo-1555949963-ff9fe0c870eb?auto=format&fit=crop&q=80&w=1920',
-    title: 'ERP System Development',
-    description: 'Database-driven application for managing user information',
-    tags: ['SQL', 'C#', '.NET']
+    image: 'Screenshot 2024-11-25 153924.png',
+    title: 'Benutzer Daten APP',
+    description: '',
+    tags: ['Daten in SQL Speichern']
   },
   {
-    image: 'https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&q=80&w=1920',
-    title: 'Machine Learning Projects',
-    description: 'Various ML implementations for data analysis',
-    tags: ['Python', 'TensorFlow', 'Data Science']
+    image: '361817922-f62570a8-835d-4de2-95ef-79d42043fe17.png',
+    title: 'Artz-Brief-Ersteller-Website',
+    description: 'Word templates mit der gewünschten eingabe namen oder datum anfordern',
+    tags: ['HTML', 'CSS', 'JavaScript', 'Microsoft', 'React']
   },
   {
-    image: 'https://images.unsplash.com/photo-1552664730-d307ca884978?auto=format&fit=crop&q=80&w=1920',
-    title: 'Web Development Portfolio',
-    description: 'Collection of responsive and modern web applications',
-    tags: ['React', 'Node.js', 'TypeScript']
+    image: '361823334-cbeeff37-10fb-4092-bb8d-df54335a601d.png',
+    title: 'Unity-NavMesh-Game',
+    description: 'Unity-Spiel mit NavMesh-Agenten und KI-Gegnern',
+    tags: ['Unity', 'C#','KI Enemy', 'Algorithms']
   },
   {
-    image: 'https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&q=80&w=1920',
-    title: 'Data Analysis Dashboard',
-    description: 'Interactive visualization of complex datasets',
-    tags: ['Python', 'Pandas', 'Visualization']
+    image: 'SAP.webp',
+    title: 'SAP ERP-Projekt',
+    status: 'Wird entwickelt',
+    description: 'Projekt zur Implementierung und Optimierung von Geschäftsprozessen mit SAP ERP.',
+    tags: ['SAP', 'ERP', 'Implementierung', 'S/4HANA']
   }
 ];
 
-// Populate skills
+// Fähigkeiten befüllen
 const skillsContainer = document.getElementById('skills-container');
 
 skills.forEach(skillCategory => {
@@ -115,7 +116,7 @@ skills.forEach(skillCategory => {
   skillsContainer.appendChild(skillCard);
 });
 
-// Populate features
+// Funktionen befüllen
 const featuresContainer = document.getElementById('features-container');
 
 features.forEach(feature => {
@@ -133,7 +134,7 @@ features.forEach(feature => {
   featuresContainer.appendChild(featureCard);
 });
 
-// Populate gallery
+// Galerie befüllen
 const galleryContainer = document.getElementById('gallery-container');
 
 galleryItems.forEach(item => {
@@ -141,25 +142,28 @@ galleryItems.forEach(item => {
   galleryItem.className = 'gallery-item';
   
   galleryItem.innerHTML = `
-    <img src="${item.image}" alt="${item.title}">
-    <div class="gallery-overlay">
-      <h3>${item.title}</h3>
-      <p>${item.description}</p>
-      <div class="gallery-tags">
-        ${item.tags.map(tag => `<span class="gallery-tag">${tag}</span>`).join('')}
-      </div>
+  <img src="${item.image}" alt="${item.title}">
+  <div class="gallery-overlay">
+    <h3>${item.title}</h3>
+    <p>${item.description}</p>
+    ${item.status ? `<div class="status">${item.status}</div>` : ''}
+    <div class="gallery-tags">
+      ${item.tags.map(tag => `<span class="gallery-tag">${tag}</span>`).join('')}
     </div>
-  `;
+  </div>
+`;
+
   
   galleryContainer.appendChild(galleryItem);
 });
 
-// JavaScript to scroll to the start (top) page
-const button = document.querySelector('.button'); // Select your button
+
+// JavaScript zum Scrollen zum Start (oben) der Seite
+const button = document.querySelector('.button'); // Button auswählen
 
 button.addEventListener('click', () => {
   window.scrollTo({
-    top: 0, // Scroll to the top of the page
-    behavior: 'smooth' // Smooth scrolling effect
+    top: 0, // Zum oberen Rand der Seite scrollen
+    behavior: 'smooth' // Sanfter Scroll-Effekt
   });
 });

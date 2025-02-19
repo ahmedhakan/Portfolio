@@ -2,7 +2,7 @@
   --background: #0A0A0B;
   --background-lighter: #0D0D0E;
   --text-color: #ffffff;
-  --text-secondary: #9ca3af;
+  --text-secondary: #00eaff;
   --purple: #A855F7;
   --pink: #EC4899;
   --border-color: #1f2937;
@@ -548,3 +548,15 @@ h1 {
   transition-duration: 0.3s;
 }
 
+
+.status {
+  position: absolute;
+  top: 10px; /* Oben */
+  right: 10px; /* Rechts */
+  font-size: 24px; /* Größe für das Loading */
+  font-weight: bold;
+  color: white;
+  background-color: rgba(255, 165, 0, 0.7); /* Hintergrundfarbe des Status */
+  padding: 5px 10px;
+  border-radius: 5px;
+}
