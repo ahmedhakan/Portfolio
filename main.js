@@ -19,23 +19,23 @@ const skills = [
   },
   {
     category: 'Web-Entwicklung',
-    items: ['React.js', 'Angular', 'Node.js', 'Express.js']
+    items: ['HTML', 'CSS', 'Javascript', 'Node.js']
   },
   {
-    category: 'Datenanalyse',
-    items: ['Pandas', 'NumPy', 'Power BI', 'SQL']
-  },
-  {
-    category: 'Maschinelles Lernen & KI',
-    items: ['Scikit-learn', 'TensorFlow', 'KI-Modellentwicklung']
+    category: 'Grundwissen',
+    items: ['C', 'C++', 'Java','Assembly']
   },
   {
     category: 'Datenbankverwaltung',
-    items: ['MySQL', 'SQL Server']
+    items: ['SQL', 'SQL Server']
   },
   {
-    category: 'Werkzeuge',
-    items: ['Git', 'Figma', 'Tableau', 'Excel']
+    category: 'Software',
+    items: ['Visual Studio Code','Visual Studio 2022', 'SQL Server', 'Unity', 'Excel']
+  },
+  {
+    category: 'Ziele',
+    items: ['SAP', 'Data-analyst', 'ERP']
   }
 ];
 
@@ -44,7 +44,7 @@ const features = [
   {
     icon: 'wand2',
     title: 'Benutzer Daten APP',
-    description: 'Entwickelte ein 3D-Spiel mit KI-gesteuerten Feinden, die sich mithilfe des NavMesh-Systems von Unity bewegen und die Spieler angreifen. Implementiertes intelligentes Spawn-System für dynamisches Gameplay.'
+    description: 'Entwickelte ein 3D-Spiel mit KI-gesteuerten Feinden, die sich mithilfe des NavMesh-Systems von Unity bewegen und die Spieler angreifen. IEntwarf eine datenbankgesteuerte Anwendung mit Visual Studio und SQL Server zur Verwaltung von Benutzerdaten. Dieses Projekt ist relevant für ERP-Anwendungen.'
   },
   {
     icon: 'sparkles',
@@ -54,7 +54,7 @@ const features = [
   {
     icon: 'github',
     title: 'KI-gesteuerte Spieleentwicklung in Unity',
-    description: 'Entwarf eine datenbankgesteuerte Anwendung mit Visual Studio und SQL Server zur Verwaltung von Benutzerdaten. Dieses Projekt ist relevant für ERP-Anwendungen.'
+    description: 'Entwickelte ein 3D-Spiel mit KI-gesteuerten Feinden, die sich mithilfe des NavMesh-Systems von Unity bewegen und die Spieler angreifen. Implementiertes intelligentes Spawn-System für dynamisches Gameplay.'
   }
 ];
 

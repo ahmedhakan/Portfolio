@@ -560,3 +560,34 @@ h1 {
   padding: 5px 10px;
   border-radius: 5px;
 }
+
+
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px; /* Höhe anpassen */
+}
+
+.logo-text {
+  font-size: 30px; /* Schriftgröße */
+  font-weight: bold;
+  font-family: Arial, sans-serif;
+  background: linear-gradient(90deg, #8c00ff, #4c00ff, #142e66);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-transform: uppercase; /* Großbuchstaben */
+  letter-spacing: 3px; /* Abstand zwischen Buchstaben */
+  animation: fadeIn 1.5s ease-in-out;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: scale(0.8);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
