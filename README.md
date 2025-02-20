@@ -8,7 +8,7 @@
 
 ![image](https://github.com/user-attachments/assets/3368fbd5-1ab6-4d90-8853-ac5efb550149)
 
-<p id="description">Ich bin ein hochmotivierter Informatik-Absolvent mit einer soliden Grundlage in der Webentwicklung und Datenanalyse. Meine Erfahrung umfasst die Entwicklung von Webanwendungen die Arbeit mit Datenbanken und die Entwicklung KI-gesteuerter Projekte. Derzeit erweitere ich mein Fachwissen in der Datenanalyse sowie SAP und ERP um in diesem Bereich eine Karriere zu starten.</p>
+<p id="description">Mein LinkedIn: https://www.linkedin.com/in/ahmed-hakan-demirta%C5%9F-444128236/</p>
 
   
 
