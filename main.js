@@ -86,9 +86,9 @@ const galleryItems = [
   },
   {
     image: 'Images/361823334-cbeeff37-10fb-4092-bb8d-df54335a601d.png',
-    title: 'Unity-NavMesh-Game',
+    title: 'Python Modelling a Data',
     description: 'Unity-Spiel mit NavMesh-Agenten und KI-Gegnern',
-    tags: ['Unity', 'C#','KI Enemy', 'Algorithms']
+    tags: ['Python', 'Simpy','Excel', 'VSCode']
   },
   {
     image: 'Images/SAP.webp',
