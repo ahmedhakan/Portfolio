@@ -44,7 +44,7 @@ const features = [
   {
     icon: 'wand2',
     title: 'Benutzer Daten APP',
-    description: 'Entwickelte ein 3D-Spiel mit KI-gesteuerten Feinden, die sich mithilfe des NavMesh-Systems von Unity bewegen und die Spieler angreifen. IEntwarf eine datenbankgesteuerte Anwendung mit Visual Studio und SQL Server zur Verwaltung von Benutzerdaten. Dieses Projekt ist relevant für ERP-Anwendungen.'
+    description: 'Entwicklung einer datenbankgestützten Anwendung mit Visual Studio und SQL Server zur effizienten Verwaltung von Benutzerdaten. Das Projekt zeigt relevante Fähigkeiten für ERP-Anwendungen, insbesondere in den Bereichen Datenbankdesign und Softwareentwicklung.'
   },
   {
     icon: 'sparkles',
@@ -53,8 +53,8 @@ const features = [
   },
   {
     icon: 'github',
-    title: 'KI-gesteuerte Spieleentwicklung in Unity',
-    description: 'Entwickelte ein 3D-Spiel mit KI-gesteuerten Feinden, die sich mithilfe des NavMesh-Systems von Unity bewegen und die Spieler angreifen. Implementiertes intelligentes Spawn-System für dynamisches Gameplay.'
+    title: 'Datenanalyse mit Python',
+    description: 'Ein Simulations‑ und Modellierungsprojekt, das mit Python und Excel‑Datenblättern die Abläufe in einem Restaurant analysiert und visualisiert'
   }
 ];
 
@@ -87,7 +87,7 @@ const galleryItems = [
   {
     image: 'Images/kitchen 3.png',
     title: 'Python Modelling a Data',
-    description: 'Unity-Spiel mit NavMesh-Agenten und KI-Gegnern',
+    description: 'Making a Simulation of Data sheet Restraunt',
     tags: ['Python', 'Simpy','Excel', 'VSCode']
   },
   {
