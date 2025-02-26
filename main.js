@@ -85,7 +85,7 @@ const galleryItems = [
     tags: ['HTML', 'CSS', 'JavaScript', 'Microsoft', 'React']
   },
   {
-    image: 'Images/361823334-cbeeff37-10fb-4092-bb8d-df54335a601d.png',
+    image: 'Images/kitchen 3.png',
     title: 'Python Modelling a Data',
     description: 'Unity-Spiel mit NavMesh-Agenten und KI-Gegnern',
     tags: ['Python', 'Simpy','Excel', 'VSCode']
