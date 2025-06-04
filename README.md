@@ -8,7 +8,7 @@
 
 ![image](https://github.com/user-attachments/assets/3368fbd5-1ab6-4d90-8853-ac5efb550149)
 
-<p id="description">Mein LinkedIn: https://www.linkedin.com/in/ahmed-hakan-demirta%C5%9F-444128236/</p>
+<p id="description">Mein LinkedIn: www.linkedin.com/in/ahmed-hakan-demirtas-444128236</p>
 
   
 
